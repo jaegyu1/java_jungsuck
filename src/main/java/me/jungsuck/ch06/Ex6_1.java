@@ -1,4 +1,4 @@
-package me.jungsuck.ch01;
+package me.jungsuck.ch06;
 
 public class Ex6_1 {
     public static void main(String args[]) {
@@ -13,10 +13,9 @@ public class Ex6_1 {
 }
 
 class Tv {
-    // Tv의 속성(멤버변수)
-    String color;           // 색상
-    boolean power;            // 전원상태(on/off)
-    int channel;            // 채널
+    String color;
+    boolean power;
+    int channel;
 
     // Tv의 기능(메서드)
     void power() {
